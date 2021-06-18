@@ -6,14 +6,14 @@ First of all, clone a project. For example:
 
 ```
     git clone [url]
-    ~~git clone https://github.com/Flossertoday/GitTest~~
+    $ git clone https://github.com/Flossertoday/GitTest
     
     # Optional: Put a customed name on it
     git clone [url] [name]
 
     # Move to its root path:
     cd [root_path]
-    ~~cd GitTest~~
+    $ cd GitTest
 
     # 'ls' shows everything under this path
     ls
@@ -33,14 +33,14 @@ Save all edits to staging area. Commit then push. Meanwile, keep updated.
 
     # Commit
     git commit -m [message]
-    ~~git commit -m 'update'~~
+    $ git commit -m 'update'
 
     # Push
     git push [remote_server] [branch]
-    ~~git push origin feat~~
+    $ git push origin feat
     # If the local branch name is not the same as the remote one
     git push [remote_server] [local_branch]:[remote_branch]
-    ~~git push origin feat:main
+    $ git push origin feat:main
 
     # Update by pulling
     git pull [remote_server] [branch]
@@ -53,11 +53,11 @@ Save all edits to staging area. Commit then push. Meanwile, keep updated.
 ```
     # Create a branch and switch to it
     git checkout -b [branch]
-    ~~git checkout -b feat~~
+    $ git checkout -b feat
 
     # Switch to a branch
     git checkout [branch]
-    ~~git checkout feat~~
+    $ git checkout feat
 
     # Merge branches
     git merge
@@ -100,7 +100,7 @@ Save all edits to staging area. Commit then push. Meanwile, keep updated.
 
     # Add remote
     git remote add [name] [link]
-    ~~git remote add origin https://github.com/Flossertoday/GitTest~~
+    $ git remote add origin https://github.com/Flossertoday/GitTest
 ```
 
 
